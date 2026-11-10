@@ -49,7 +49,6 @@ The exercises provided practical experience with directory navigation, file crea
 | Command | Purpose |
 |---|---|
 | `cat` | Displays the contents of a file. |
-| `nano` | Opens a terminal-based text editor for creating and editing files. |
 
 ### 4. Basic System Information
 
