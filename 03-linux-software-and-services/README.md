@@ -3,84 +3,112 @@
 **Difficulty:** Beginner to Intermediate  
 **Environment:** Ubuntu Linux running in Oracle VirtualBox
 
-## Overview
+## 1. Overview
 
-This lab focused on software package management, process monitoring and basic Linux service management.
+This lab focused on Linux software installation, package management, process monitoring and service administration.
 
-The exercises provided practical experience with updating Ubuntu packages, installing software through the terminal, inspecting running processes and checking the status of system services.
+The practical exercises involved installing software through the APT package manager, identifying running processes, managing system services and investigating a service failure using system diagnostic tools.
 
-## Objectives
+The purpose was to develop practical skills relevant to maintaining and troubleshooting Linux-based systems.
 
-- Understand basic Linux package management.
-- Update Ubuntu package lists and installed software.
-- Install software using the APT package manager.
-- Inspect running processes.
-- Search for specific processes.
-- Check the status of Linux services.
+## 2. Objectives
 
-## Environment
+- Update and manage software packages using APT.
+- Install software through the Linux terminal.
+- Identify and inspect running processes.
+- Understand the difference between processes and services.
+- Check and manage Linux services using systemd.
+- Configure services to start automatically at boot where appropriate.
+- Investigate service failures using status information and system logs.
+
+## 3. Environment and Tools
 
 - Operating system: Ubuntu Linux
 - Virtualisation software: Oracle VirtualBox
 - Interface: Linux Terminal
 - Package manager: APT
-- Service management: systemd
+- Service management: nginx
 
-## Practical Exercises
-
-### 1. Package Management
+## 4. Software Installation and Package Management
 
 Practised updating Ubuntu package lists, upgrading installed packages and installing software through the terminal.
 
 | Command | Purpose |
 |---|---|
 | `sudo apt update` | Refreshes the local package lists. |
-| `sudo apt upgrade` | Upgrades installed packages where updates are available. |
-| `sudo apt install` | Installs software packages from configured repositories. |
+| `sudo apt install` | Installs software packages. |
 
-### 2. Process Management
+Software installation was verified through the terminal.
 
-Practised viewing running processes and searching for specific processes.
+## 5. Process Management
+
+Practised inspecting running processes and searching for specific processes.
 
 | Command | Purpose |
 |---|---|
 | `ps` | Displays information about running processes. |
-| `top` | Provides a live view of running processes and system resource usage. |
-| `pgrep` | Searches for processes by name or other matching criteria. |
-| `ps aux` | Displays a detailed list of running processes. |
+| `top` | Provides a live view of processes and system resource usage. |
 
-### 3. Linux Service Management
+## 6. Linux Service Management
 
-Practised checking the status of Linux services using systemd.
+Practised inspecting and managing Linux services using systemctl.
 
 | Command | Purpose |
 |---|---|
-| `systemctl status` | Displays the current status of a specified service. |
+| `systemctl status` | Displays the current status of a service. |
+| `systemctl restart` | Restarts a service. |
+| `systemctl start` | Starts a service. |
 
-## Testing and Verification
+Service management exercises included checking service status, stopping and restarting a service, and verifying its operational state.
 
-The exercises were performed in the Ubuntu terminal.
+## 7. Testing and Verification
 
-The following activities were completed:
+The following testing activities formed part of the lab:
 
-- Updated Ubuntu package lists.
-- Upgraded installed software packages.
-- Installed software using APT.
-- Viewed running processes.
-- Searched for specific running processes.
-- Checked the status of Linux services.
+- Demonstrated successful software installation.
+- Identified running processes using Linux process inspection commands.
+- Checked service status before and after stopping a service.
+- Restarted a service and verified that it was running.
+- Investigated a service failure using service status information and system logs.
 
-## Skills Practised
+## 8. Troubleshooting Report
 
-- Ubuntu package management.
+A service failure was investigated as part of this exercise.
+
+The troubleshooting process involved:
+
+1. Checking the affected service's status using `systemctl status`.
+2. Examining available system logs to investigate the failure.
+3. Reviewing the information provided by the service status and logs to understand the reported problem.
+
+This exercise demonstrated how Linux administrators can use service information and system logs to investigate problems rather than relying on guesswork.
+
+**Troubleshooting outcome:** The service failure was investigated using status information and system logs.
+
+## 9. Screenshots and Evidence
+
+Practical evidence for this lab includes:
+
+- Software installation commands and terminal output.
+- Screenshots showing running process inspection.
+- Service status before and after testing.
+- Evidence of restarting the service.
+- Service failure investigation using status information and logs.
+
+## 10. Skills Demonstrated
+
+- Linux package management using APT.
 - Software installation and system updates.
-- Linux process inspection.
-- Process identification.
-- Basic systemd service monitoring.
-- Linux command-line administration.
+- Process identification and monitoring.
+- Understanding Linux processes and services.
+- Service management using systemd.
+- Service status verification.
+- Basic Linux troubleshooting and log investigation.
 
-## Conclusion
+## 11. Conclusion
 
-This lab provided practical experience with managing software packages, inspecting running processes and checking Linux service status.
+This lab provided practical experience with software management, process inspection and Linux service administration.
 
-These skills are relevant to IT support and junior system administration, particularly when maintaining software, monitoring system activity and investigating service availability.
+It also introduced service troubleshooting through status checks and system log analysis.
+
+These skills are relevant to IT support, technical operations and junior system administration roles, where maintaining software, monitoring processes and investigating service failures are important responsibilities.
