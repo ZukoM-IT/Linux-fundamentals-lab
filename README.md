@@ -23,25 +23,20 @@ Each lab focuses on developing foundational technical skills relevant to IT supp
 
 Introduction to the Linux terminal, filesystem navigation, file and directory operations, text editing and basic system information.
 
-[View Lab 01](01-linux-system-setup-command-line/)
 
 ### Lab 02 — Linux System Administration & User Management
 
 Practical exercises involving Linux user accounts, password management, groups, file permissions and ownership.
 
-[View Lab 02](02-linux-system-administration/)
-
 ### Lab 03 — Linux Software Installation & Service Management
 
 Practical experience with APT package management, software installation, process inspection, systemd services and service troubleshooting.
 
-[View Lab 03](03-linux-software-and-services/)
 
 ### Lab 04 — Linux System Monitoring & Troubleshooting
 
 Exercises involving system information, disk usage monitoring, system log inspection, error identification and service failure investigation.
 
-[View Lab 04](04-linux-monitoring-troubleshooting/)
 
 ## Tools & Technologies
 
