@@ -35,7 +35,6 @@ Commands:
 
 | Command | Purpose |
 |---|---|
-| `cat /etc/passwd` | Displays information about local user accounts. |
 | `sudo adduser` | Creates a new user account. |
 | `passwd` | Sets or changes a user's password. |
 
@@ -50,8 +49,6 @@ Commands:
 | `sudo groupadd` | Creates a new group. |
 | `sudo usermod` | Modifies user account properties, including group membership. |
 | `groups` | Displays the groups associated with a user. |
-| `id` | Displays user and group identification information. |
-
 ### 3. File Permissions
 
 Practised inspecting and modifying file and directory permissions.
